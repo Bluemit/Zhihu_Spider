@@ -104,7 +104,7 @@ class Zhihu_Parser(object):
             #         maxcount=eval(en)
             #         res_data['counts'] = maxcount
             #         res_data['status'] = 1
-        if(maxcount>=200000):
+        if(maxcount>=20000):
             fout=open('result.html','a')
             fout.write("<a href='%s'>%s ( %s 赞同)</a><br />" % (res_data["url"].encode("utf-8"), res_data['title'].encode("utf-8"),res_data["counts"]))
             fout.close()
