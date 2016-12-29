@@ -1,7 +1,7 @@
 # Byte-compiled / optimized / DLL files
 
 result.html
-result2.html
+result.txt
 
 __pycache__/
 *.py[cod]
