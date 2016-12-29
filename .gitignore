@@ -3,6 +3,8 @@
 result.html
 result.txt
 
+.idea
+
 __pycache__/
 *.py[cod]
 *$py.class
